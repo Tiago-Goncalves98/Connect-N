@@ -4,4 +4,4 @@
 
 
 # Connect-N
-A console only connect 4 with a twist using python and MVC design pattern.
+A console only connect 4 with a twist using python and MVC design pattern. (The game is all in portuguese)
