@@ -95,5 +95,21 @@ Here Player2 placed its special piece sized _3_ in the ninth column going left.
 To specify the direction in which the piece is layed we need to add _E_ (left) or _D_ (right) after the position of the inicial piece.
 
 
-## G/L - save and load current game and players
+## G/L - Save and load current game and players
 
+You can save the current game (if there is one ongoing) and players by using: G _yourFileName_
+
+![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/5e1d53ae-ff5c-4496-96c6-c5b5b2706b6d)
+
+You can also load data from this file withL: L _yourFileName_
+
+![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/f501fb9a-9c7f-4da9-8660-145cb5286961)
+
+Here I tried to list all players but there were none registered.
+After load my data I can now list them.
+
+All data in recorded in a local file where you have the program.
+
+## F - Close Program
+
+Not much to say on this one it just close the terminal (not that it does not save).
