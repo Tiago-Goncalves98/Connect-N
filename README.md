@@ -112,4 +112,4 @@ All data in recorded in a local file where you have the program.
 
 ## F - Close Program
 
-Not much to say on this one it just close the terminal (not that it does not save).
+Not much to say on this one it just closes the terminal (not that it does not save).
