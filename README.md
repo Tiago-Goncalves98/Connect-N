@@ -70,8 +70,30 @@ Here only Player1 forfeited so Player2 was awarded the victory.
 
 ![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/b1169710-8500-48b5-8bde-3845cf03f6cc)
 
+## DJ - Game details
+
+It displays the dimensions of the currrent game, the players involved and the number of specials pieces available.
+
+![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/28ae24d5-ea1b-410b-9cdc-e1c246a04e7d)
+
+Here is a 10x10 game, both players have one piece of size _2_ and two pieces of size _3_.
 
 ## CP - Place piece
 
-To place a piece to have to indicate which player is placing it, followed by the size of the piece and the position of the collumn where its being placed.
+To place a piece to have to indicate which player is placing it, followed by the size of the piece and the position of the column where its being placed.
+
+![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/ca7f7c35-d0e4-4f95-855d-970aea359ab8)
+
+Here Player1 placed a piece of size 1 in the second column.
+
+But we also have specials pieces.
+And to use specials pieces we also need to specify the direction in which the piece is layed like so:
+
+![image](https://github.com/Tiago-Goncalves98/Connect-N/assets/81558370/c3258b06-7ff8-46c2-a483-b6377bd9df22)
+
+Here Player2 placed its special piece sized _3_ in the ninth column going left.
+To specify the direction in which the piece is layed we need to add _E_ (left) or _D_ (right) after the position of the inicial piece.
+
+
+## G/L - save and load current game and players
 
