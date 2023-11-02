@@ -113,6 +113,17 @@ def visualizar_resultado(game):
                     print(f"{i} {k} {board[i-1][k-1]}")
     return ""
 
+def visualizar_grelha(game):
+    if game["GameState"] == False:
+        return "Não existe jogo em curso."
+    else:
+        board = []
+        for row in game["currentGame"]:
+            for i in range(len(row)):
+                print(row[i],end=" ")
+            print("")
+    return ""
+
 def peca_check(game,player,size):
     if int(size) != 1:
         for i in game["currentPlayers"]:
