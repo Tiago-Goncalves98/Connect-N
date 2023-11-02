@@ -1,5 +1,5 @@
 from controllers.func_registros import registar_jogador, listar_jogadores, remover_jogador
-from controllers.gamerules import game_starter,forfeit, visualizar_resultado,colocar_peca,show_game_results
+from controllers.gamerules import game_starter,forfeit, visualizar_resultado,visualizar_grelha,colocar_peca,show_game_results
 from controllers.save_load import save, load
 
 def main():
@@ -93,6 +93,11 @@ def main():
             if r != "":
                 print(r)
 
+        elif commands[0] == "VG" and len(commands) == 1:
+            r = visualizar_grelha(game)
+            if r != "":
+                print(r)
+
         elif commands[0] == "G" and len(commands) == 2:
             file_name = commands[1]
             r = save(game,file_name)
@@ -111,5 +116,8 @@ def main():
         elif commands[0]== "status":
             for line in game["currentGame"]: 
                 print(line)
+        elif commands[0] == "F":
+            print("Programa fechado.")
+            quit()
         else:
             print("Instrução inválida.")
